@@ -6,7 +6,11 @@
 #########################
 [ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
 
-### Source plugins
+### Source plugins plug_oh_my_zsh
+#########################
+ZSH_THEME="robbyrussell"
+
+### Source plugins ZAP
 #########################
 plug "esc/conda-zsh-completion"
 plug "zsh-users/zsh-autosuggestions"
@@ -24,6 +28,7 @@ plug "zap-zsh/sudo"
 plug "$HOME/.config/zsh/exports.zsh"
 plug "$HOME/.config/zsh/alias.zsh"
 plug "$HOME/.config/zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh"
+# plug "$HOME/.config/zsh/plug_oh_my_zsh.sh"
 
 ### Autoload zsh modules when they are referenced
 #################################################

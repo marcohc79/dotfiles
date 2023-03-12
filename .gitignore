@@ -21,6 +21,12 @@ Videos
 .gtkrc-2.0
 .lesshst
 .local/bin/lvim
+.local/bin/flask
+.local/bin/normalizer
+.local/bin/pipenv
+.local/bin/pipenv-resolver
+.local/bin/virtualenv
+.local/bin/virtualenv-clone
 .local/include
 .local/lib
 .local/share
@@ -30,29 +36,37 @@ Videos
 .npm-global/
 .npm/
 .npmrc
+.oh-my-zsh/
 .package-lock.json
 .package.json
 .pki/
 .python_history
 .ssh/
 .vscode-oss/
+.vmware/
 .wget-hsts
 .zcompdump
+.zcompdump-XPS9370-5.9
+.zcompdump-XPS9370-5.9.zwc
 .zhistory
 
 # Config
 .config/alsi
 .config/chromium
 .config/Code - OSS
+.config/calibre
 .config/dconf
+.config/deezer-desktop
 .config/discord
 .config/Electron
+.config/Insomnia
 .config/geany
 .config/goa-1.0
 .config/gtk-3.0
 .config/keepassxc
 .config/Kvantum
 .config/light
+.config/libreoffice
 .config/lvim
 .config/menus
 .config/mpv
@@ -60,6 +74,7 @@ Videos
 .config/obsidian
 .config/pulse
 .config/qalculate
+.config/rncbc.org
 .config/xarchiver
 .config/xfce4
 .config/xsettingsd
@@ -67,3 +82,6 @@ Videos
 .config/QtProject.conf
 .config/user-dirs.dirs
 .config/user-dirs.locale
+.config/Thunar/accels.scm
+.config/viewnior
+.config/vlc
