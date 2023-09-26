@@ -7,12 +7,11 @@
   Super = Windows Key
 
 # common operations
-  Super          h        *keyhint* (THIS DOCUMENT)
-  Super          Return   *term* (`foot`)
-  Super          q        *quit* (kill focused window)
-  Super   Shift  q        *quit* (kill focused window)
-  Super          d        *show app menu* (`wofi small`)
-  Super   Shift  d        *show app menu* (`wofi large`)
+  Super          F1        *keyhint* (THIS DOCUMENT)
+  Super          Return   *term* (`kitty`)
+  Super   Shift  c        *quit* (kill focused window)
+  Super          e        *show app menu* (`wofi small`)
+  Super   Shift  e        *show app menu* (`wofi large`)
 
 # wallpaper / styling stuff
   Super           w       *wallpaper shuffle* (right click on wallpaper   waybar module)
@@ -36,9 +35,10 @@
 
 # screenshot may need to hold down the function (`fn`) key. You can change keybinds in *~/.config/hypr/configs/Keybinds.conf* 
   Super PrintScr(button)       *full screenshot*
-  Super Shift PrintSrc(button) *active window screenshot*         
-  Super CTRL SHIFT PrintScr    *full screenshot + timer (5s)*
-  Super Alt PrintScr           *full screenshot + timer (10s)*
+  Ctrl  PrintSrc(button)       *active window screenshot*         
+  Shift PrintSrc(button)       *area window screenshot*         
+  Super CTRL PrintScr          *full screenshot + timer (5s)*
+  Super Alt  PrintScr          *full screenshot + timer (10s)*
   Super Shift S                *screenshot with swappy*
 
 # clipboard manager (cliphist)
@@ -47,14 +47,12 @@
     - to clean up clipboard manager, launch foot (super enter) then type cliphist wipe
 
 # applications shortcuts
-  Super   T		  *file manager* (`thunar`) - if installed
-
+  Super   Shift  f		  *file manager* (`thunar`) - if installed
     
 # container layout
   Super   Shift   Space       *toggle tiling/floating mode*
   Super   left mouse button   *move window*
   Super   right mouse button  *resize window* (note only in float mode)
-
 
 # workspaces
   Super         1 .. 0    *switch to workspace 1 .. 10*

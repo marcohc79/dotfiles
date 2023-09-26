@@ -1,5 +1,7 @@
 alias nvim='lvim'
 alias cat='bat'
+alias cat='bat'
+alias man='batman'
 
 # exa
 alias ls='eza --icons --color=always --group-directories-first'
