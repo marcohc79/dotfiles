@@ -1,3 +1,4 @@
+# export PATH=~/.dotnet/
 export PATH=$PATH:$HOME/.config/emacs/bin
 export PATH=~/.npm-global/bin:$PATH 
 export PATH=/home/mhcaballero/.local/bin:$PATH #for lunarvim
