@@ -16,6 +16,7 @@ zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
+zinit light jeffreytse/zsh-vi-mode
 
 # Shell integrations
 eval "$(fzf --zsh)"
@@ -51,6 +52,7 @@ source "$HOME/.config/zsh/export.zsh"
 source "$HOME/.config/zsh/alias.zsh"
 source "$HOME/.config/zsh/extract.zsh"
 source "$HOME/.local/share/zinit/plugins/zsh-users---zsh-syntax-highlighting/themes/catppuccin_mocha-zsh-syntax-highlighting.zsh"
+source "$HOME/.config/zsh/sudo.plugin.zsh"
 
 
 # Load completions
