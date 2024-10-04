@@ -1,0 +1,5 @@
+# Default config for sway
+include $HOME/.config/sway/config.d/*.conf
+
+exec wl-paste --watch cliphist store -max-items 30 &
+exec waypaper --restore &
