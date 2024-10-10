@@ -39,7 +39,7 @@ return {
                                 "build.gradle.kts",
                                 ".git",
                             },
-
+                            project_name_fallback = "DefaultJavaProject",
                             -- Carga de plugins para pruebas en Java
                             java_test = {
                                 enable = true,
