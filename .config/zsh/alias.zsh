@@ -11,7 +11,7 @@ alias la='eza -a --icons --color=always --group-directories-first'
 alias l='eza -F --icons --color=always --group-directories-first'
 alias l.='eza -a | batgrep "^\."'
 
-# pacman
+# dnf | pacman 
 alias install='sudo dnf install '
 alias search='dnf search '
 alias update='sudo dnf update'

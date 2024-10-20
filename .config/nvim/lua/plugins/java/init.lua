@@ -3,6 +3,7 @@ return {
   config = false,
   dependencies = {
     {
+      "microsoft/vscode-java-test",
       "neovim/nvim-lspconfig",
       opts = {
         servers = {
