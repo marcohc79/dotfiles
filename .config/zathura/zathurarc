@@ -25,8 +25,7 @@ map i recolor
 map , zoom in
 map . zoom out
 
-# Searc
-map / search forward
+# Search
 map b search next
 map B search previous
 
