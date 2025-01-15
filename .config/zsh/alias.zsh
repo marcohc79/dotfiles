@@ -5,18 +5,20 @@ alias vim='lvim'
 alias c='clear'
 
 # exa
-alias ls='eza --icons --color=always --group-directories-first'
-alias ll='eza -alF --icons --color=always --group-directories-first'
-alias la='eza -a --icons --color=always --group-directories-first'
-alias l='eza -F --icons --color=always --group-directories-first'
+alias ls='eza --icons --color=auto --group-directories-first'
+alias ll='eza -alF --icons --color=auto --group-directories-first'
+alias la='eza -a --icons --color=auto --group-directories-first'
+alias l='eza -F --icons --color=auto --group-directories-first'
 alias l.='eza -a | batgrep "^\."'
 
 # dnf | pacman 
-alias install='sudo dnf install '
-alias search='dnf search '
-alias update='sudo dnf update'
+# alias install='sudo dnf install '
+# alias search='dnf search '
+# alias update='sudo dnf update'
 # alias uninstall='sudo pacman -R '
-# alias unlock='sudo rm -rf /var/lib/pacman/db.lck'
+alias unlock='sudo rm -rf /var/lib/pacman/db.lck'
+alias update='sudo pacman -Syyu'
+alias install='sudo pacman -S '
 
 # z
 alias ..="z .."
