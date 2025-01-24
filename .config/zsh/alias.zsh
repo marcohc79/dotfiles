@@ -5,11 +5,11 @@ alias vim='lvim'
 alias c='clear'
 
 # exa
-alias ls='eza --icons --color=auto --group-directories-first'
-alias ll='eza -alF --icons --color=auto --group-directories-first'
-alias la='eza -a --icons --color=auto --group-directories-first'
-alias l='eza -F --icons --color=auto --group-directories-first'
-alias l.='eza -a | batgrep "^\."'
+alias lsz='eza --icons --color=auto --group-directories-first'
+alias llz='eza -alF --icons --color=auto --group-directories-first'
+alias laz='eza -a --icons --color=auto --group-directories-first'
+alias lz='eza -F --icons --color=auto --group-directories-first'
+alias l.z='eza -a | batgrep "^\."'
 
 # dnf | pacman 
 # alias install='sudo dnf install '
