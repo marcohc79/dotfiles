@@ -12,13 +12,13 @@ alias lz='eza -F --icons --color=auto --group-directories-first'
 alias l.z='eza -a | batgrep "^\."'
 
 # dnf | pacman 
-# alias install='sudo dnf install '
-# alias search='dnf search '
-# alias update='sudo dnf update'
+alias install='sudo dnf install '
+alias search='dnf search '
+alias update='sudo dnf update'
 # alias uninstall='sudo pacman -R '
-alias unlock='sudo rm -rf /var/lib/pacman/db.lck'
-alias update='sudo pacman -Syyu'
-alias install='sudo pacman -S '
+# alias unlock='sudo rm -rf /var/lib/pacman/db.lck'
+# alias update='sudo pacman -Syyu'
+# alias install='sudo pacman -S '
 
 # z
 alias ..="z .."
