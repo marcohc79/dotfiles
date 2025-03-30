@@ -2,6 +2,7 @@
 export PATH=~/.npm-global/bin:$PATH 
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$PATH:$HOME/.local/share/coursier/bin"
 
 
 export XDG_CURRENT_DESKTOP=sway
