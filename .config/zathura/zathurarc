@@ -1,0 +1,41 @@
+########## 🎨 Catppuccin Mocha Theme ##########
+set default-bg                  "#1e1e2e"
+set default-fg                  "#cdd6f4"
+set statusbar-bg                "#1e1e2e"
+set statusbar-fg                "#cdd6f4"
+set inputbar-bg                 "#1e1e2e"
+set inputbar-fg                 "#cdd6f4"
+set notification-bg             "#1e1e2e"
+set notification-fg             "#cdd6f4"
+set notification-error-bg       "#1e1e2e"
+set notification-error-fg       "#f38ba8"
+set notification-warning-bg     "#1e1e2e"
+set notification-warning-fg     "#f9e2af"
+set highlight-color             "#b4befe"
+set highlight-active-color      "#89b4fa"
+set completion-bg               "#1e1e2e"
+set completion-fg               "#cdd6f4"
+set completion-group-bg         "#1e1e2e"
+set completion-group-fg         "#cba6f7"
+set completion-highlight-bg     "#585b70"
+set completion-highlight-fg     "#cdd6f4"
+
+########## ⚙️ Comodidad y rendimiento ##########
+set recolor-keephue             true
+set adjust-open                 best-fit
+set pages-per-row               1
+set smooth-scroll               true
+set scroll-step                 80
+set zoom-step                   10
+set show-scrollbars             false
+set statusbar-h-padding         10
+set statusbar-v-padding         5
+set selection-clipboard         clipboard
+set database                    sqlite
+
+########## 🎹 Atajos estilo Vim ##########
+
+########## 🔄 Integración con LaTeX (opcional) ##########
+# Para usar con latexmk o lualatex:
+# Ejemplo de compilación:
+# latexmk -pdf -pvc -view=zathura archivo.tex

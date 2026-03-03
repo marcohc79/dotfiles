@@ -1,0 +1,5 @@
+LICENSE
+stylua.toml
+lazy-lock.json
+*.log
+.config/nvim/
