@@ -8,6 +8,8 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.duckdb/cli/latest:$PATH"
 export PATH="$HOME/.npm-global/bin:$PATH"
 export PATH="$HOME/.local/share/gem/ruby/3.4.0/bin:$PATH"
+export GOPATH=$HOME/.go
+export PATH=$PATH:$GOPATH/bin
 
 ##### Default Applications
 export TERMINAL="kitty"

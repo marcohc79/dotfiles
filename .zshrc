@@ -110,5 +110,11 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init zsh)"
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
 
-##### PERFORMANCE TRACKING END (NUEVO - opcional)
-# zprof  # Descomenta para ver tiempos de carga
+##### Yazi
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	command yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ "$cwd" != "$PWD" ] && [ -d "$cwd" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}
