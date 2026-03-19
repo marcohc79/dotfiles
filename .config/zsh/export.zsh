@@ -1,7 +1,7 @@
 ##### AMD
 export AMD_VULKAN_ICD=RADV
 export RADV_PERFTEST=gpl
-
+export QT_QPA_PLATFORMTHEME=qt6ct
 ##### PATH Configuration
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"

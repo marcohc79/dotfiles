@@ -96,7 +96,6 @@ zinit light jeffreytse/zsh-vi-mode
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
-zinit snippet OMZP::dnf
 zinit snippet OMZP::git
 
 # fzf-tab configuration
@@ -118,3 +117,12 @@ function y() {
 	[ "$cwd" != "$PWD" ] && [ -d "$cwd" ] && builtin cd -- "$cwd"
 	rm -f -- "$tmp"
 }
+
+# >>> juliaup initialize >>>
+
+# !! Contents within this block are managed by juliaup !!
+
+path=('/home/mhuamani/.juliaup/bin' $path)
+export PATH
+
+# <<< juliaup initialize <<<
