@@ -175,6 +175,8 @@ prepend_keymap = [
   # Mount
   { on = ["M", "m"],    run = "plugin mount",                   desc = "Mount/unmount drives" },
   { on = ["g", "m"],    run = "cd /run/media",                  desc = "Go to mounted media" },
+  # Lazygit
+  { on = ["g", "i"],    run = "plugin lazygit",                 desc = "Run lazygit" },
 ]
 
 [tasks]
