@@ -82,6 +82,8 @@ rules = [
 	{ mime = "inode/empty", use = [ "edit", "reveal" ] },
 	# Virtual file system
 	{ mime = "vfs/{absent,stale}", use = "download" },
+	# Archive by extension
+	{ url = "*.{zip,ZIP}", use = [ "extract", "reveal" ] },
 	# Fallback
 	{ url = "*", use = [ "open", "reveal" ] },
 ]
@@ -170,6 +172,8 @@ previewers = [
 	{ mime = "vfs/*", run = "vfs" },
 	# Error
 	{ mime = "null/*", run = "null" },
+  # Zip
+  { url = "*.{zip,ZIP}", run = "archive" },
 	# Fallback
 	{ url = "*", run = "file" },
 ]
