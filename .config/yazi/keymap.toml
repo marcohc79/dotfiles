@@ -161,11 +161,13 @@ keymap = [
 prepend_keymap = [
   # Ouch
   { on = "C", run = "plugin ouch", desc = "Compress with ouch" },
-  # duckdb
+  # Duckdb
   { on = "H",           run = "plugin duckdb -1",    desc = "Scroll one column to the left" },
   { on = "L",           run = "plugin duckdb +1",    desc = "Scroll one column to the right" },
   { on = [ "g", "o" ],  run = "plugin duckdb -open", desc = "Open with duckdb" },
   { on = [ "g", "u" ],  run = "plugin duckdb -ui",   desc = "Open with duckdb ui" },
+  # Toggle pane
+  { on = "T", run = "plugin toggle-pane max-preview", desc = "Maximize or restore the preview pane" },
 ]
 
 [tasks]
