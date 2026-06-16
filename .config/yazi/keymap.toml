@@ -177,6 +177,8 @@ prepend_keymap = [
   { on = ["g", "m"],    run = "cd /run/media",                  desc = "Go to mounted media" },
   # Lazygit
   { on = ["g", "i"],    run = "plugin lazygit",                 desc = "Run lazygit" },
+  # Omni trash
+  { on = "R",           run = "plugin omni-trash",              desc = "Open Omni Trash"},
 ]
 
 [tasks]
