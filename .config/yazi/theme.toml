@@ -1,2 +1,9 @@
 [flavor]
 dark = "rose-pine"
+
+[icon]
+prepend_dirs = [
+  { name = "Projects", text = "" },
+  { name = "Templates", text = "󰈙" },
+  { name = "mnt", text = "󰒍" },
+]
