@@ -2,9 +2,10 @@
 # zmodload zsh/zprof  # Descomenta para ver tiempos de carga
 
 ##### CUSTOM CONFIG FILES
-source "$HOME/.config/zsh/export.zsh"
 source "$HOME/.config/zsh/alias.zsh"
+source "$HOME/.config/zsh/export.zsh"
 source "$HOME/.config/zsh/extract.zsh"
+source "$HOME/.config/zsh/fastfetch.zsh"
 source "$HOME/.config/zsh/sudo.plugin.zsh"
 
 # Check if syntax highlighting theme exists before sourcing
