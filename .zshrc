@@ -110,6 +110,9 @@ zinit ice as"program" from"gh-r" \
     atpull"%atclone" src"init.zsh"
 zinit light starship/starship
 
+##### keychain integration
+eval "$(keychain --eval --quiet id_rsa_git_workstation)"
+
 ##### Yazi
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
