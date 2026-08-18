@@ -6,7 +6,7 @@ export QT_QPA_PLATFORMTHEME=qt6ct
 ##### PATH Configuration
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
-export PATH="$HOME/.duckdb/cli/1.4.4:$PATH"
+export PATH="$HOME/.duckdb/cli/1.4.5:$PATH"
 export PATH="$HOME/.npm-global/bin:$PATH"
 export PATH="$HOME/.local/share/gem/ruby/3.4.0/bin:$PATH"
 export GOPATH=$HOME/.go
