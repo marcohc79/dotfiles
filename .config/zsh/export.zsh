@@ -73,3 +73,9 @@ export _ZO_FZF_OPTS="$FZF_DEFAULT_OPTS"
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
+
+##### Agent socket for SSH
+export SSH_AUTH_SOCK="/run/user/1000/ssh-agent.socket"
+
+#### Libvirt configuration
+export LIBVIRT_DEFAULT_URI="qemu:///system"
