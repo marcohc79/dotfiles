@@ -248,17 +248,39 @@ local function apply_style_table(component, style)
 		return component
 	end
 	-- Apply manually
-	if style.fg          then component:fg(style.fg)  end
-	if style.bg          then component:bg(style.bg)  end
-	if style.bold        then component:bold()        end
-	if style.dim         then component:dim()         end
-	if style.italic      then component:italic()      end
-	if style.underline   then component:underline()   end
-	if style.blink       then component:blink()       end
-	if style.blink_rapid then component:blink_rapid() end
-	if style.reverse     then component:reverse()     end
-	if style.hidden      then component:hidden()      end
-	if style.crossed     then component:crossed()     end
+	if style.fg then
+		component:fg(style.fg)
+	end
+	if style.bg then
+		component:bg(style.bg)
+	end
+	if style.bold then
+		component:bold()
+	end
+	if style.dim then
+		component:dim()
+	end
+	if style.italic then
+		component:italic()
+	end
+	if style.underline then
+		component:underline()
+	end
+	if style.blink then
+		component:blink()
+	end
+	if style.blink_rapid then
+		component:blink_rapid()
+	end
+	if style.reverse then
+		component:reverse()
+	end
+	if style.hidden then
+		component:hidden()
+	end
+	if style.crossed then
+		component:crossed()
+	end
 	return component
 end
 
@@ -625,8 +647,8 @@ function Yatline.string.get:hovered_file_extension(show_icon)
 		end
 
 		if show_icon then
-			local icon = hovered:icon().text
-			return icon .. " " .. name
+			local icon = th.icon:match(hovered)
+			return (icon and icon.text or "") .. " " .. name
 		else
 			return name
 		end
